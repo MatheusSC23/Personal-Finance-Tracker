@@ -1,12 +1,10 @@
+import { TheHeader } from "@/components/TheHeader/TheHeader";
 import React from "react";
 
 export default function Home() {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <header style={{ marginBottom: "20px" }}>
-        <h1>Personal Finance Tracker</h1>
-        <p>Manage your finances effectively and efficiently.</p>
-      </header>
+    <div style={{ fontFamily: "Arial, sans-serif" }}>
+      <TheHeader></TheHeader>
 
       <main>
         <section style={{ marginBottom: "20px" }}>
